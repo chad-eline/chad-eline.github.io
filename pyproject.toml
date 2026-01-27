@@ -1,57 +1,45 @@
 [project]
-name = "python-template"
+name = "chad-eline-portfolio"
 version = "1.0.0"
-description = "This is a Python project template."
+description = "Chad Eline's portfolio and personal website."
 readme = "readme.md"
 requires-python = ">=3.10"
 authors = [
     {name = "Chad Eline"}
 ]
 license = {text = "MIT"}
-keywords = ["template", "python", "project"]
+keywords = ["portfolio", "website", "mkdocs"]
 classifiers = [
     "Development Status :: 4 - Beta",
-    "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Typing :: Typed",
 ]
 
 dependencies = []
 
-[project.scripts]
-python-template = "python_template:run"
-
 [project.urls]
-Homepage = "https://github.com/chad-eline/python-template"
-Documentation = "https://github.com/chad-eline/python-template#readme"
-Repository = "https://github.com/chad-eline/python-template.git"
-Issues = "https://github.com/chad-eline/python-template/issues"
+Homepage = "https://chad-eline.github.io"
+Repository = "https://github.com/chad-eline/chad-eline.github.io.git"
+Issues = "https://github.com/chad-eline/chad-eline.github.io/issues"
 
 [project.optional-dependencies]
 dev = [
-    "ruff>=0.1.0",
-    "pytest>=9.0",
-    "basedpyright>=1.0.0",
     "pre-commit>=3.0.0",
-    "detect-secrets>=1.4.0",
 ]
 docs = [
     "mkdocs>=1.6.1",
+    "mkdocs-material>=9.5.0",
+    "mkdocs-minify-plugin>=0.8.0",
+    "pymdown-extensions>=10.0",
     "mkdocs-get-deps>=0.2.0",
     "ghp-import>=2.1.0",
     "markdown>=3.10",
     "pyyaml-env-tag>=1.1",
     "watchdog>=6.0.0",
-    "prettier>=0.0.7",
 ]
-
-[tool.pytest.ini_options]
-pythonpath = ["src"]
-testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 88
@@ -59,21 +47,3 @@ line-length = 88
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP"]
 ignore = []
-
-[tool.ruff.lint.isort]
-known-first-party = ["python_template"]
-
-[tool.basedpyright]
-pythonVersion = "3.10"
-typeCheckingMode = "strict"
-reportUnusedVariable = true
-reportUnnecessaryIsInstance = true
-reportConstantRedefinition = true
-reportPrivateImportUsage = true
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/python_template"]

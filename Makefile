@@ -7,51 +7,26 @@ help: Makefile
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
 
-## clean: Remove all build, test, coverage and Python artifacts
+## clean: Remove build artifacts
 clean:
-	find . -name '*.pyc' -exec rm -f {} +
-	find . -name '*.pyo' -exec rm -f {} +
+	rm -rf site/
 	find . -name '*~' -exec rm -f {} +
-	find . -name '__pycache__' -exec rm -fr {} +
-	find . -name '*log' -exec rm -fr {} +
-	rm -rf build/ dist/ *.egg-info src/*.egg-info .eggs/
-	rm -rf .coverage htmlcov/ .pytest_cache/
 
 ## doc-lint: Format markdown files with prettier
 doc-lint:
-	prettier --write "**/*.md"
+	npx prettier --write "**/*.md"
 
-## doc-serve: Serve the documentation using mkdocs
+## doc-serve: Serve the documentation locally
 doc-serve:
-	mkdocs serve
+	uv run mkdocs serve
 
-## lint: Format and check all Python files with ruff (uses pyproject.toml config)
-lint: doc-lint
-	uv run ruff format src tests
-	uv run ruff check --fix src tests
+## doc-build: Build the documentation site
+doc-build:
+	uv run mkdocs build --strict
 
-## type-check: Type check the codebase with basedpyright
-type-check:
-	uv run basedpyright src
-
-## build: Build the package
-build: clean
-	uv build
-
-## run: Run the application
-run:
-	uv run python -m python_template.main
-
-## test: Run the test cases using pytest
-test:
-	uv run pytest tests
-
-## test-coverage: Run tests with coverage report
-test-coverage:
-	uv run pytest tests --cov=src/python_template --cov-report=term-missing --cov-report=html
-
-## test-and-lint: Lint and test the codebase
-test-and-lint: lint test-coverage
+## doc-deploy: Deploy documentation to GitHub Pages
+doc-deploy:
+	uv run mkdocs gh-deploy --force
 
 ## uv: Install and manage uv package manager
 uv: uv
