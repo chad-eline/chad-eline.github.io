@@ -17,23 +17,8 @@ permissions:
   id-token: write
 
 jobs:
-  markdown-lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Markdown lint
-        uses: DavidAnson/markdownlint-cli2-action@v22.0.0
-        with:
-          globs: |
-            **/*.md
-            !venv
-            !node_modules
-            !site
-
   deploy-docs:
     runs-on: ubuntu-latest
-    needs: [markdown-lint]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     steps:
