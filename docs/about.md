@@ -24,7 +24,7 @@ Risk and analytics professional with a passion for data science and 10+ years of
 
 !!! tip "Company MVP 2022"
     Led large-scale migration from legacy on-premise infrastructure to Microsoft Azure:
-    
+
     - Basel, CCAR, and IFRS models
     - Model backtesting and monitoring frameworks
     - ETL pipelines and enterprise data warehouse
@@ -55,7 +55,7 @@ Risk and analytics professional with a passion for data science and 10+ years of
 - Devised technical solution for Bank of America's Federal Reserve 5G Liquidity report
 
 !!! abstract "Platinum Global Recognition Award"
-    Leadership and execution in resolving the FDIC MRA
+Leadership and execution in resolving the FDIC MRA
 
 ---
 
@@ -70,7 +70,7 @@ Risk and analytics professional with a passion for data science and 10+ years of
 - Authored 77-page development standards document establishing consistent practices
 
 !!! quote "Recognition"
-    1 Platinum, 2 Gold, and 3 Silver Global Recognition Awards
+1 Platinum, 2 Gold, and 3 Silver Global Recognition Awards
 
 ---
 
@@ -96,12 +96,10 @@ Risk and analytics professional with a passion for data science and 10+ years of
 <div class="grid cards" markdown>
 
 - :material-chart-line: **Financial Risk Manager**
-
-    [GARP Certified](https://www.garp.org/frm)
+  [GARP Certified](https://www.garp.org/frm)
 
 - :material-code-tags: **Base SAS 9**
-
-    SAS Certified
+  SAS Certified
 
 </div>
 

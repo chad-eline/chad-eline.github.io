@@ -12,9 +12,9 @@ clean:
 	rm -rf site/
 	find . -name '*~' -exec rm -f {} +
 
-## doc-lint: Format markdown files with prettier
+## doc-lint: Lint markdown files
 doc-lint:
-	npx prettier --write "**/*.md"
+	npx markdownlint-cli2 "**/*.md" --config .markdownlint.json
 
 ## doc-serve: Serve the documentation locally
 doc-serve:

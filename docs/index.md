@@ -1,39 +1,32 @@
-# Welcome
+# Chad Eline
 
-Hi, I'm **Chad Eline** — a software developer passionate about building elegant
-solutions to complex problems.
+Risk and analytics professional with 10+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions.
 
 ## What I Do
 
-I specialize in:
+- **Data Engineering** — ETL pipelines, data warehousing, and cloud migration
+- **Regulatory Analytics** — CCAR, DFAST, IFRS9, and stress testing models
+- **Econometric Modeling** — Balance sheet forecasting and capital planning
 
-- **Backend Development** — Building scalable APIs and services
-- **Data Engineering** — Processing and analyzing large datasets
-- **DevOps** — Automating deployments and infrastructure
-
-## Featured Projects
+## Highlights
 
 <div class="grid cards" markdown>
 
-- :material-code-braces: **Project Alpha**
+- :material-trophy: **Company MVP 2022**
 
     ---
 
-    A high-performance data processing pipeline built with Python.
+    Led enterprise-scale Azure migration of regulatory models and data infrastructure.
 
-    [Learn more :material-arrow-right:](projects/index.md)
-
-- :material-chart-line: **Project Beta**
+- :material-bank: **$17B LCR Impact**
 
     ---
 
-    Real-time analytics dashboard with interactive visualizations.
-
-    [Learn more :material-arrow-right:](projects/index.md)
+    Designed FDIC calculation engine processing 163M records daily at Bank of America.
 
 </div>
 
 ## Get in Touch
 
-Feel free to reach out through [GitHub](https://github.com/chad-eline) or
-connect with me on social media.
+[:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/chad-eline){ .md-button }
