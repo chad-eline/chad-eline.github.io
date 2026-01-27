@@ -1,7 +1,18 @@
-# python-template
+# chad-eline.github.io
 
-This repo is a Python project template that can be used for other projects.
+Personal portfolio site built with MkDocs Material.
 
-- [Quick Start](docs/quickstart.md)
-- [Design](docs/design.md)
-- [Testing](docs/testing.md)
+## Development
+
+```bash
+# Install dependencies
+make venv-sync
+
+# Serve locally
+make doc-serve
+
+# Build site
+make doc-build
+```
+
+Site auto-deploys to GitHub Pages on push to `main`.
