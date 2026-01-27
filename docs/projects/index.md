@@ -50,18 +50,17 @@ real-time.
 
 ---
 
-## Open Source Contributions
+## Personal Projects
 
-### python-template
+### Markdown to Resume Generator
 
-A modern Python project template with best practices for testing, linting, and
-CI/CD.
+A Python based tool that generates formatted MS Word docs from Markdown resume files.
 
-- Pre-configured with ruff, pytest, and pre-commit
-- GitHub Actions workflow included
-- Comprehensive documentation
+- Allows you to focus on the content not the style
+- Styles are configured using YAML based templates
+- Supports Cover letters
 
-[:octicons-mark-github-16: View on GitHub](https://github.com/chad-eline/python-template){ .md-button }
+[:octicons-mark-github-16: View on GitHub](https://github.com/chad-eline/resume-builder){ .md-button }
 
 ---
 

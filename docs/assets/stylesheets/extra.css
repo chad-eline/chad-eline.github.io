@@ -86,3 +86,32 @@
 [data-md-color-scheme="slate"] .md-header {
   background-color: rgba(15, 15, 20, 0.95);
 }
+
+/* Resume/CV styling */
+.md-typeset .subtitle {
+  margin-top: -0.8rem;
+  margin-bottom: 1rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.md-typeset h3 {
+  margin-bottom: 0.4rem;
+}
+
+/* Horizontal rule styling */
+.md-typeset hr {
+  border-color: rgba(255, 255, 255, 0.08);
+  margin: 2rem 0;
+}
+
+[data-md-color-scheme="default"] .md-typeset hr {
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Contact buttons grid */
+.md-typeset .grid .md-button {
+  width: 100%;
+  text-align: center;
+}
