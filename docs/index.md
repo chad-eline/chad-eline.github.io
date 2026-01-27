@@ -21,7 +21,7 @@ I specialize in:
 
     A high-performance data processing pipeline built with Python.
 
-    [:octicons-arrow-right-24: Learn more](projects/index.md)
+    [Learn more :material-arrow-right:](projects/index.md)
 
 - :material-chart-line: **Project Beta**
 
@@ -29,13 +29,9 @@ I specialize in:
 
     Real-time analytics dashboard with interactive visualizations.
 
-    [:octicons-arrow-right-24: Learn more](projects/index.md)
+    [Learn more :material-arrow-right:](projects/index.md)
 
 </div>
-
-## Latest Posts
-
-Check out my [blog](blog/index.md) for technical articles and tutorials.
 
 ## Get in Touch
 

@@ -18,7 +18,7 @@ doc-lint:
 
 ## doc-serve: Serve the documentation locally
 doc-serve:
-	uv run mkdocs serve
+	uv run mkdocs serve --livereload
 
 ## doc-build: Build the documentation site
 doc-build:
