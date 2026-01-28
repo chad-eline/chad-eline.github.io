@@ -115,3 +115,14 @@
   width: 100%;
   text-align: center;
 }
+
+/* Improve button visibility in dark mode */
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary):hover {
+  background-color: var(--md-accent-fg-color);
+  color: #0f0f14;
+}
