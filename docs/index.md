@@ -1,12 +1,36 @@
 # Chad Eline
 
-Risk and analytics professional with 10+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions.
+Risk and analytics professional specializing in regulatory compliance, data engineering/science, and risk management for large financial institutions.
 
 ## What I Do
 
-- **Data Engineering** — ETL pipelines, data warehousing, and cloud migration
-- **Regulatory Analytics** — CCAR, DFAST, IFRS9, and stress testing models
-- **Econometric Modeling** — Balance sheet forecasting and capital planning
+<div class="grid cards" markdown>
+
+- :material-database: **Data Engineering**
+
+    ---
+
+    ETL pipelines, data warehousing, and cloud migrations
+
+- :material-bank: **Risk Managment**
+
+    ---
+
+    GARP Financial Risk Management Professional
+
+- :material-chart-line: **Econometric Modeling**
+
+    ---
+
+    Balance sheet forecasting and capital planning analytics
+
+- :material-chart-line: **Data Science**
+
+    ---
+
+    Hands on experience delivering applied AI models (OCR, NLP, and XGBoost) for real world business problems.
+
+</div>
 
 ## Highlights
 
@@ -22,11 +46,11 @@ Risk and analytics professional with 10+ years of experience delivering regulato
 
     ---
 
-    Designed FDIC calculation engine processing 163M records daily at Bank of America.
+    Built FDIC calculation engine, which processed 163M daily records, cutting LCR outflow by $17B and closing a Fed MRA.
 
 </div>
 
 ## Get in Touch
 
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
-[:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/chad-eline){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }

@@ -22,23 +22,37 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
+      # Checkout the full repository
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
+      # Install uv CLI
       - name: Install uv
         uses: astral-sh/setup-uv@v7
 
+      # Set up Python
       - name: Set up Python
         run: uv python install 3.12
 
+      # Install Python dependencies (MkDocs + Material theme)
       - name: Install dependencies
         run: uv sync --all-extras
 
+      # Configure Git user for commits
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Build and deploy docs
+      # Build MkDocs site
+      - name: Build MkDocs site
+        run: uv run mkdocs build
+
+      # Add .nojekyll to prevent GitHub Pages from using Jekyll
+      - name: Add .nojekyll
+        run: touch site/.nojekyll
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         run: uv run mkdocs gh-deploy --force
