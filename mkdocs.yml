@@ -3,9 +3,6 @@ site_url: https://chad-eline.github.io
 site_description: Portfolio and technical writings by Chad Eline
 site_author: Chad Eline
 
-repo_url: https://github.com/chad-eline/chad-eline.github.io
-repo_name: ""
-
 theme:
   name: material
   palette:

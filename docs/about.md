@@ -4,10 +4,6 @@
 
 Risk and analytics professional with a passion for data science and 10+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions. Expertise in ETL pipelines, data warehousing, econometric modeling, and cloud migration.
 
-!!! success "Named Company MVP for leading enterprise-scale Azure migration"
-
----
-
 ## :material-briefcase: Experience
 
 ### Risk Consultant II
@@ -55,7 +51,8 @@ Risk and analytics professional with a passion for data science and 10+ years of
 - Devised technical solution for Bank of America's Federal Reserve 5G Liquidity report
 
 !!! abstract "Platinum Global Recognition Award"
-Leadership and execution in resolving the FDIC MRA
+
+    Leadership and execution in resolving the FDIC MRA
 
 ---
 
@@ -69,8 +66,8 @@ Leadership and execution in resolving the FDIC MRA
 - Designed and automated release process, reducing deployment from **2 days to 2 hours**
 - Authored 77-page development standards document establishing consistent practices
 
-!!! quote "Recognition"
-1 Platinum, 2 Gold, and 3 Silver Global Recognition Awards
+!!! quote Recognition
+    1 Platinum, 2 Gold, and 3 Silver Global Recognition Awards
 
 ---
 
@@ -108,9 +105,6 @@ Leadership and execution in resolving the FDIC MRA
 ## :material-email: Contact
 
 <div class="grid" markdown>
-
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
-
 [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/chad-eline){ .md-button }
-
 </div>
