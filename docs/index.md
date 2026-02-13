@@ -1,6 +1,6 @@
 # Chad Eline
 
-Risk and analytics professional specializing in regulatory compliance, data engineering/science, and risk management for large financial institutions.
+Data engineering and risk analytics professional with 12+ years building production pipelines and regulatory solutions for major financial institutions.
 
 ## What I Do
 
@@ -10,47 +10,53 @@ Risk and analytics professional specializing in regulatory compliance, data engi
 
     ---
 
-    ETL pipelines, data warehousing, and cloud migrations
+    Production ETL pipelines, data warehousing, and cloud platform migrations
 
-- :material-bank: **Risk Managment**
-
-    ---
-
-    GARP Financial Risk Management Professional
-
-- :material-chart-line: **Econometric Modeling**
+- :material-bank: **Risk Management**
 
     ---
 
-    Balance sheet forecasting and capital planning analytics
+    GARP FRM certified; CCAR, Basel, and IFRS9 implementations
 
-- :material-chart-line: **Data Science**
+- :material-chart-line: **Forecasting & Analytics**
 
     ---
 
-    Hands on experience delivering applied AI models (OCR, NLP, and XGBoost) for real world business problems.
+    Balance sheet, income statement, and capital planning models
+
+- :material-robot: **Applied ML**
+
+    ---
+
+    End-to-end ML pipelines using OCR, NLP, and XGBoost in production
 
 </div>
+
+---
 
 ## Highlights
 
 <div class="grid cards" markdown>
 
-- :material-trophy: **Company MVP 2022**
+- :material-trophy: **Company MVP 2023**
 
     ---
 
-    Led enterprise-scale Azure migration of regulatory models and data infrastructure.
+    Led enterprise Azure migration of regulatory models, ETL pipelines, and data warehouse
 
 - :material-bank: **$17B LCR Impact**
 
     ---
 
-    Built FDIC calculation engine, which processed 163M daily records, cutting LCR outflow by $17B and closing a Fed MRA.
+    Built FDIC calculation engine processing 163M daily records, resolving a Federal Reserve MRA
 
 </div>
 
+---
+
 ## Get in Touch
 
+<div class="grid" markdown>
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
+</div>

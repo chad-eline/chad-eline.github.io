@@ -1,80 +1,27 @@
 # Projects
 
-A showcase of personal projects and open-source tools. Coming soon.
+A showcase of personal projects and open-source tools.
 
 ---
 
-<!-- ## Data Engineering
+## This Site
 
 <div class="grid cards" markdown>
 
-- :material-pipe: **ETL Pipeline Framework**
+- :material-file-document-multiple: **Portfolio Site**
 
     ---
 
-    A lightweight, configuration-driven ETL framework for building reproducible data pipelines.
+    This portfolio site, built with MkDocs Material and deployed to GitHub Pages.
 
-    - YAML-based pipeline definitions
-    - Built-in data quality checks
-    - Parallel execution with dependency management
-    - Supports Parquet, CSV, and database sources
+    - Modern & minimal custom theme
+    - Dark/light mode toggle
+    - Responsive design
+    - CI/CD deployment via GitHub Actions
 
-    **Stack:** Python, Polars, DuckDB
+    **Stack:** MkDocs, Material Theme, GitHub Pages
 
-    [:material-github: View on GitHub](#){ .md-button }
-
-- :material-database-sync: **Data Reconciliation Tool**
-
-    ---
-
-    Automated tool for reconciling datasets across systems with detailed variance reporting.
-
-    - Configurable matching rules and tolerances
-    - HTML and Excel diff reports
-    - Scheduled runs with Slack/email alerts
-    - Audit trail for compliance
-
-    **Stack:** Python, Pandas, SQLAlchemy
-
-    [:material-github: View on GitHub](#){ .md-button }
-
-</div>
-
----
-
-## Analytics & Modeling
-
-<div class="grid cards" markdown>
-
-- :material-chart-timeline-variant: **Time Series Forecaster**
-
-    ---
-
-    A modular forecasting library for financial time series with backtesting support.
-
-    - Multiple model backends (ARIMA, Prophet, XGBoost)
-    - Walk-forward validation framework
-    - Scenario analysis and stress testing
-    - Visualization dashboard
-
-    **Stack:** Python, Streamlit, Plotly
-
-    [:material-github: View on GitHub](#){ .md-button }
-
-- :material-file-document-check: **Document Classifier**
-
-    ---
-
-    ML pipeline for classifying and extracting structured data from unstructured financial documents.
-
-    - OCR preprocessing with Tesseract
-    - XGBoost classification model
-    - Named entity extraction
-    - REST API for integration
-
-    **Stack:** Python, FastAPI, scikit-learn
-
-    [:material-github: View on GitHub](#){ .md-button }
+    [:material-github: View on GitHub](https://github.com/chad-eline/chad-eline.github.io){ .md-button }
 
 </div>
 
@@ -99,25 +46,40 @@ A showcase of personal projects and open-source tools. Coming soon.
 
     [:material-github: View on GitHub](https://github.com/chad-eline/resume-builder){ .md-button }
 
-- :material-cog-sync: **Job Scheduler**
+- :material-robot: **AI in Docker**
 
     ---
 
-    A simple, dependency-aware job scheduler for orchestrating batch workflows.
+    Containerized environment for running local AI/ML workloads with GPU support.
 
-    - DAG-based task dependencies
-    - Retry logic with exponential backoff
-    - Execution history and logs
-    - Web UI for monitoring
+    - Pre-configured for popular AI frameworks
+    - GPU passthrough support
+    - Reproducible development environment
+    - Easy setup and teardown
 
-    **Stack:** Python, FastAPI, SQLite
+    **Stack:** Docker, Python, CUDA
 
-    [:material-github: View on GitHub](#){ .md-button }
+    [:material-github: View on GitHub](https://github.com/chad-eline/ai_in_docker){ .md-button }
+
+- :material-notebook: **Jupyter in Docker**
+
+    ---
+
+    Dockerized Jupyter environment for portable, reproducible data science workflows.
+
+    - Isolated notebook environments
+    - Pre-installed data science libraries
+    - Volume mounting for persistent work
+    - Multi-kernel support
+
+    **Stack:** Docker, Jupyter, Python
+
+    [:material-github: View on GitHub](https://github.com/chad-eline/juypter_in_docker){ .md-button }
 
 </div>
 
---- -->
+---
 
 ## Want to Collaborate?
 
-I'm always interested in working on interesting projects. Feel free to [reach out](../about.md#-contact) if you have an idea or opportunity.
+I'm always interested in working on interesting projects. Feel free to [reach out](../about.md#contact) if you have an idea or opportunity.

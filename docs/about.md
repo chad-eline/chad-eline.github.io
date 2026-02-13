@@ -2,23 +2,21 @@
 
 ## :material-account: Background
 
-Risk and analytics professional with a passion for data science and 10+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions. Expertise in ETL pipelines, data warehousing, econometric modeling, and cloud migration.
+Senior Data Engineer with 10+ years modernizing financial and regulatory analytics platforms in highly regulated environments. Proven track record leading migrations from SAS and on-premise systems to Python and Azure-based architectures. Deep experience translating risk and finance requirements into scalable data pipelines, forecasting models, and production-grade analytical systems.
 
 ## :material-briefcase: Experience
 
 ### Risk Consultant II
 
-**The Financial Risk Group** · Cary, NC · Dec 2020 – Present
+**The Financial Risk Group** · Cary, NC · Dec 2020 – Jan 2026
 { .subtitle }
 
-- Built an end-to-end data pipeline to extract, classify, and summarize unstructured documents into structured datasets using OCR, NLP, and XGBoost
-- Designed and presented a Python-based PySpark job scheduler, improving reliability and scalability of batch processing workflows
-- Consulted on and implemented multiple regulatory and stress-testing models (IFRS9, EWST, FST) using Python, Go, and SAS
-- Led Balance Sheet, Income Statement, and PPNR forecasting models for regulatory and strategic decision-making
-- Led analysis, design, and implementation of a client's Federal Reserve Board FR Y-14A reporting solution
-- Served as development lead for enterprise ETL platform modernization to Azure
+- Owned migration of analytical and regulatory models from SAS/legacy systems into Python-based cloud architecture, ensuring model parity, validation, and stakeholder sign-off
+- Built production data pipeline using OCR, NLP, and XGBoost to convert unstructured regulatory documents into structured, queryable datasets
+- Designed and implemented Python-based PySpark job orchestration framework to improve batch reliability, monitoring, and scalability across forecasting workflows
+- Led development of Balance Sheet, Income Statement, and PPNR forecasting platforms for regulatory capital planning and reporting
 
-!!! tip "Company MVP 2022"
+!!! tip "Company MVP 2023"
     Led large-scale migration from legacy on-premise infrastructure to Microsoft Azure:
 
     - Basel, CCAR, and IFRS models
@@ -33,10 +31,10 @@ Risk and analytics professional with a passion for data science and 10+ years of
 **The Financial Risk Group** · Cary, NC · Jun 2016 – Dec 2020
 { .subtitle }
 
-- Delivered CCAR and DFAST analytics solutions (2016–2020) and IFRS9 implementations (2019-2021)
-- Designed forecasting and reporting platforms for Income Statement, Balance Sheet, and revenue projections
-- Developed replacement platform for internal capital planning and regulatory reporting
-- Optimized high-volume database loads, reducing one critical pipeline from **4 hours to 15 minutes**
+- Delivered CCAR, DFAST, and IFRS9 analytical systems supporting capital planning and regulatory compliance for large financial institutions
+- Consolidated forecasting platforms, retiring fragmented legacy systems and centralizing reporting pipelines into maintainable architectures
+- Optimized high-volume database ingestion pipeline, reducing runtime from **4 hours to 15 minutes** through partitioning, indexing, and parallelization
+- Partnered with finance and risk stakeholders to define business requirements, translate regulatory logic, and validate model assumptions before production deployment
 
 ---
 
@@ -46,9 +44,9 @@ Risk and analytics professional with a passion for data science and 10+ years of
 { .subtitle }
 
 - Designed FDIC calculation engine processing **163 million records daily**, reducing LCR outflow by **$17B** and resolving a Federal Reserve MRA
-- Redesigned Operational Deposits data warehouse feed, reducing runtime from **4 hours to 55 minutes**
-- Led ETL and data warehouse architecture for 40+ onshore and offshore developers
+- Led ETL and data warehouse architecture for 40+ onshore and offshore developers; standardized development practices
 - Devised technical solution for Bank of America's Federal Reserve 5G Liquidity report
+- Redesigned Operational Deposits data warehouse feed, reducing runtime from **4 hours to 55 minutes**
 
 !!! abstract "Platinum Global Recognition Award"
 
