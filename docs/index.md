@@ -1,6 +1,8 @@
 # Chad Eline
 
-Data engineering and risk analytics professional with 12+ years building production pipelines and regulatory solutions for major financial institutions.
+Senior Data Engineer | Risk Technology & Analytics | Python, Spark & Cloud
+
+Building enterprise-scale data platforms and regulatory models that drive actionable insights. 12+ years designing high-volume ETL pipelines, modernizing risk systems, and delivering production-ready analytics in highly regulated environments.
 
 ## What I Do
 
@@ -56,7 +58,9 @@ Data engineering and risk analytics professional with 12+ years building product
 
 ## Get in Touch
 
-<div class="grid" markdown>
+I’m open to senior staff-level data engineering roles, applied AI, or fintech risk technology positions.
+
+<div class="grid" style="justify-content: center;" markdown>
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>

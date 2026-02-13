@@ -64,7 +64,7 @@ Senior Data Engineer with 10+ years modernizing financial and regulatory analyti
 - Designed and automated release process, reducing deployment from **2 days to 2 hours**
 - Authored 77-page development standards document establishing consistent practices
 
-!!! quote Recognition
+!!! Recognition
     1 Platinum, 2 Gold, and 3 Silver Global Recognition Awards
 
 ---
