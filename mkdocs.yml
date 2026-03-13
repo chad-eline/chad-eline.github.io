@@ -1,7 +1,17 @@
 site_name: Chad Eline
 site_url: https://chad-eline.github.io
-site_description: Portfolio and technical writings by Chad Eline
+site_description: Senior Data Engineer specializing in risk technology, regulatory analytics, and cloud data platforms. 12+ years building enterprise ETL pipelines and forecasting systems.
 site_author: Chad Eline
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chad-eline
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/chad-eline
+      name: LinkedIn
+  generator: false
 
 theme:
   name: material
@@ -26,6 +36,7 @@ theme:
   icon:
     logo: material/code-braces-box
     repo: fontawesome/brands/github
+  favicon: assets/images/favicon.svg
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -49,6 +60,9 @@ plugins:
   - search
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
 
 watch:
   - docs/
@@ -82,14 +96,3 @@ nav:
   - About: about.md
   - Projects:
       - Overview: projects/index.md
-
-extra:
-  generator: False
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/chad-eline
-      name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/chad-eline
-      name: LinkedIn
-      

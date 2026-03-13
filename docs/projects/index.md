@@ -59,7 +59,7 @@ A showcase of personal projects and open-source tools.
 
     **Stack:** Docker, Python, CUDA
 
-    [:material-github: View on GitHub](https://github.com/chad-eline/ai_in_docker){ .md-button }
+    [:material-github: View on GitHub](https://github.com/chad-eline/ollama_in_docker){ .md-button }
 
 - :material-notebook: **Jupyter in Docker**
 
@@ -74,7 +74,7 @@ A showcase of personal projects and open-source tools.
 
     **Stack:** Docker, Jupyter, Python
 
-    [:material-github: View on GitHub](https://github.com/chad-eline/juypter_in_docker){ .md-button }
+    [:material-github: View on GitHub](https://github.com/chad-eline/jupyter_in_docker){ .md-button }
 
 </div>
 

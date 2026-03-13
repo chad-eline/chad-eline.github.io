@@ -102,7 +102,8 @@ Senior Data Engineer with 10+ years modernizing financial and regulatory analyti
 
 ## :material-email: Contact
 
-<div class="grid" markdown>
+<div class="grid" style="justify-content: center;" markdown>
+[:material-file-download: Resume](assets/Chad_Eline_Resume.pdf){ .md-button .md-button--primary download }
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/in/chad-eline){ .md-button }
 </div>
