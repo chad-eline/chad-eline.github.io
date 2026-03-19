@@ -4,24 +4,24 @@ A showcase of personal projects and open-source tools.
 
 ---
 
-## This Site
+## Data Engineering
 
 <div class="grid cards" markdown>
 
-- :material-file-document-multiple: **Portfolio Site**
+- :material-database-arrow-right: **Public Financial Data Pipeline**
 
     ---
 
-    This portfolio site, built with MkDocs Material and deployed to GitHub Pages.
+    End-to-end ETL pipeline using public financial data sources (FRED, SEC EDGAR) with medallion architecture, Airflow orchestration, and data quality validation.
 
-    - Modern & minimal custom theme
-    - Dark/light mode toggle
-    - Responsive design
-    - CI/CD deployment via GitHub Actions
+    - **Medallion Architecture**: Bronze → Silver → Gold layers
+    - **Public APIs**: FRED economic indicators + SEC EDGAR filings
+    - **Data Quality**: Great Expectations validation at each layer
+    - **Containerized**: Docker Compose for reproducible deployment
 
-    **Stack:** MkDocs, Material Theme, GitHub Pages
+    **Stack:** Python, Polars, DuckDB, Airflow, Docker
 
-    [:material-github: View on GitHub](https://github.com/chad-eline/chad-eline.github.io){ .md-button }
+    [:material-github: View on GitHub](https://github.com/chad-eline/pipeline_demo){ .md-button }
 
 </div>
 

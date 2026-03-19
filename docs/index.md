@@ -2,7 +2,19 @@
 
 Senior Data Engineer | Risk Technology & Analytics | Python, Spark & Cloud
 
-Building enterprise-scale data platforms and regulatory models that drive actionable insights. 12+ years designing high-volume ETL pipelines, modernizing risk systems, and delivering production-ready analytics in highly regulated environments.
+I'm a data engineer who thrives at the intersection of finance and technology. Over 12+ years, I've migrated legacy SAS systems to modern Python architectures, built pipelines that process hundreds of millions of records daily, and delivered regulatory platforms that have resolved Federal Reserve findings. I care deeply about building systems that are not just functional, but maintainable and understood by the teams who inherit them.
+
+---
+
+## Core Stack
+
+<div class="grid" style="justify-content: center;" markdown>
+
+:simple-python: **Python** · :simple-apachespark: **PySpark** · :simple-microsoftazure: **Azure** · :simple-postgresql: **SQL** · :simple-docker: **Docker** · :simple-git: **Git**
+
+</div>
+
+---
 
 ## What I Do
 
@@ -58,9 +70,10 @@ Building enterprise-scale data platforms and regulatory models that drive action
 
 ## Get in Touch
 
-I’m open to senior staff-level data engineering roles, applied AI, or fintech risk technology positions.
+Open to senior and staff-level data engineering roles in fintech, risk technology, or applied AI.
 
 <div class="grid" style="justify-content: center;" markdown>
+[:material-email: Email](mailto:chad.eline@gmail.com){ .md-button .md-button--primary }
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>
