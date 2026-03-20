@@ -31,8 +31,8 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   icon:
     logo: material/code-braces-box
     repo: fontawesome/brands/github

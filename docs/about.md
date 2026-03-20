@@ -86,31 +86,19 @@ The $17B LCR impact came from giving the bank accurate visibility into their FDI
 
 ---
 
-## :material-school: Education
+## :material-school: Education & Certifications
 
 **Emory University** · B.A. Economics · May 2012
 
----
-
-## :material-certificate: Certifications
-
-<div class="grid cards" markdown>
-
-- :material-chart-line: **Financial Risk Manager**
-  [GARP Certified](https://www.garp.org/frm)
-
-- :material-code-tags: **Base SAS 9**
-  SAS Certified
-
-</div>
+**Certifications:** Financial Risk Manager (GARP) · Base SAS 9 (SAS Institute)
 
 ---
 
 ## :material-email: Contact
 
-<div class="grid" style="justify-content: center;" markdown>
-[:material-email: charles.eline@gmail.com](mailto:charles.eline@gmail.com){ .md-button .md-button--primary }
-[:material-file-download: Resume](assets/Chad_Eline_Resume.pdf){ .md-button download }
-[:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
-[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
+<div class="contact-grid" markdown>
+[:material-email: Email](mailto:charles.eline@gmail.com){ .md-button .md-button--primary }
+[:material-file-download: Resume](assets/Resume.md){ .md-button download }
+[:simple-github: GitHub](https://github.com/chad-eline){ .md-button }
+[:simple-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>

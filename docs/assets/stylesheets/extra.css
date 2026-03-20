@@ -8,14 +8,14 @@
   --md-primary-fg-color: #18181b;
   --md-primary-fg-color--light: #27272a;
   --md-primary-fg-color--dark: #09090b;
-  --md-accent-fg-color: #2563eb;
-  --md-accent-fg-color--transparent: rgba(37, 99, 235, 0.1);
+  --md-accent-fg-color: #059669;
+  --md-accent-fg-color--transparent: rgba(5, 150, 105, 0.1);
   --md-default-fg-color: #18181b;
   --md-default-fg-color--light: #52525b;
   --md-default-fg-color--lighter: #71717a;
   --md-default-bg-color: #ffffff;
   --md-default-bg-color--light: #fafafa;
-  --md-typeset-a-color: #2563eb;
+  --md-typeset-a-color: #059669;
   
   /* Custom properties */
   --surface-1: #ffffff;
@@ -42,9 +42,9 @@
   --md-primary-fg-color: #18181b;
   --md-primary-fg-color--light: #27272a;
   --md-primary-fg-color--dark: #09090b;
-  --md-accent-fg-color: #60a5fa;
-  --md-accent-fg-color--transparent: rgba(96, 165, 250, 0.12);
-  --md-typeset-a-color: #60a5fa;
+  --md-accent-fg-color: #34d399;
+  --md-accent-fg-color--transparent: rgba(52, 211, 153, 0.12);
+  --md-typeset-a-color: #34d399;
   --md-code-bg-color: #18181b;
   
   --surface-1: #18181b;
@@ -69,17 +69,17 @@
 }
 
 .md-typeset h1 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.5rem;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   margin-bottom: 1.5rem;
 }
 
 .md-typeset h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.5rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -89,7 +89,7 @@
 .md-typeset h3 {
   font-weight: 600;
   font-size: 1.15rem;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   margin-bottom: 0.5rem;
 }
 
@@ -202,29 +202,12 @@
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: var(--shadow-sm);
-  transition: all var(--transition-base), box-shadow 0.3s ease;
-  position: relative;
-}
-
-.md-typeset .grid.cards > ul > li::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 12px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  background: linear-gradient(135deg, var(--md-accent-fg-color--transparent) 0%, transparent 50%);
-  pointer-events: none;
+  transition: border-color var(--transition-base), background var(--transition-base);
 }
 
 .md-typeset .grid.cards > ul > li:hover {
   border-color: var(--md-accent-fg-color);
-  box-shadow: var(--shadow-lg), 0 0 20px var(--md-accent-fg-color--transparent);
-  transform: translateY(-4px) scale(1.01);
-}
-
-.md-typeset .grid.cards > ul > li:hover::before {
-  opacity: 1;
+  background: var(--surface-3);
 }
 
 .md-typeset .grid.cards > ul > li > hr {
@@ -234,6 +217,34 @@
 
 .md-typeset .grid.cards > ul > li > p:last-child {
   margin-bottom: 0;
+}
+
+/* Featured card - larger, more prominent */
+.md-typeset .grid.cards.featured > ul {
+  grid-template-columns: 1fr;
+}
+
+.md-typeset .grid.cards.featured > ul > li {
+  border-left: 3px solid var(--md-accent-fg-color);
+  padding: 2rem;
+}
+
+.md-typeset .grid.cards.featured > ul > li p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Secondary cards - smaller grid */
+.md-typeset .grid.cards.secondary {
+  margin-top: 1rem;
+}
+
+.md-typeset .grid.cards.secondary > ul > li {
+  padding: 1.25rem;
+}
+
+.md-typeset .grid.cards.secondary > ul > li p {
+  font-size: 0.9rem;
 }
 
 /* ============================================
@@ -255,8 +266,7 @@
 .md-typeset .md-button:hover {
   background: var(--surface-3);
   border-color: var(--md-accent-fg-color);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-sm);
 }
 
 .md-typeset .md-button--primary {
@@ -268,7 +278,6 @@
 .md-typeset .md-button--primary:hover {
   background: var(--md-accent-fg-color);
   filter: brightness(1.1);
-  box-shadow: 0 4px 14px var(--md-accent-fg-color--transparent);
   color: white;
 }
 
@@ -439,6 +448,64 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-secondary);
+}
+
+/* ============================================
+   Stack Grid (Core Stack section)
+   ============================================ */
+
+.md-typeset .stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.md-typeset .stack-grid p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.md-typeset .stack-grid strong {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .md-typeset .stack-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* ============================================
+   Contact Grid (2x2 layout)
+   ============================================ */
+
+.md-typeset .contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.75rem;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.md-typeset .contact-grid .md-button {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .md-typeset .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ============================================
