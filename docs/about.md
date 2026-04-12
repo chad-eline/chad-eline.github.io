@@ -99,6 +99,6 @@ The $17B LCR impact came from giving the bank accurate visibility into their FDI
 <div class="contact-grid" markdown>
 [:material-email: Email](mailto:charles.eline@gmail.com){ .md-button .md-button--primary }
 [:material-file-download: Resume](assets/Resume.md){ .md-button download }
-[:simple-github: GitHub](https://github.com/chad-eline){ .md-button }
-[:simple-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
+[:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>

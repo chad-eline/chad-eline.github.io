@@ -6,7 +6,7 @@ A showcase of personal projects and open-source tools.
 
 <div class="grid cards featured" markdown>
 
-- :simple-python: **Public Financial Data Pipeline**
+- :fontawesome-brands-python: **Public Financial Data Pipeline**
 
     ---
 
@@ -19,7 +19,7 @@ A showcase of personal projects and open-source tools.
 
     **Stack:** Python, Polars, DuckDB, Airflow, Docker
 
-    [:simple-github: View on GitHub](https://github.com/chad-eline/pipeline_demo){ .md-button }
+    [:fontawesome-brands-github: View on GitHub](https://github.com/chad-eline/pipeline_demo){ .md-button }
 
 </div>
 
@@ -27,7 +27,7 @@ A showcase of personal projects and open-source tools.
 
 <div class="grid cards featured" markdown>
 
-- :simple-python: **Resume Builder**
+- :fontawesome-brands-python: **Resume Builder**
 
     ---
 
@@ -40,26 +40,26 @@ A showcase of personal projects and open-source tools.
 
     **Stack:** Python, python-docx
 
-    [:simple-github: View on GitHub](https://github.com/chad-eline/resume-builder){ .md-button }
+    [:fontawesome-brands-github: View on GitHub](https://github.com/chad-eline/resume-builder){ .md-button }
 
 </div>
 
 <div class="grid cards secondary" markdown>
 
-- :simple-ollama: **AI in Docker**
+- :material-robot: **AI in Docker**
 
     ---
 
     Containerized local AI/ML with GPU passthrough
 
-    [:simple-github: GitHub](https://github.com/chad-eline/ollama_in_docker){ .md-button }
+    [:fontawesome-brands-github: GitHub](https://github.com/chad-eline/ollama_in_docker){ .md-button }
 
-- :simple-jupyter: **Jupyter in Docker**
+- :material-notebook: **Jupyter in Docker**
 
     ---
 
     Portable, reproducible data science environments
 
-    [:simple-github: GitHub](https://github.com/chad-eline/jupyter_in_docker){ .md-button }
+    [:fontawesome-brands-github: GitHub](https://github.com/chad-eline/jupyter_in_docker){ .md-button }
 
 </div>
