@@ -76,7 +76,7 @@ Docker · Git · Linux
 Open to senior and staff-level data engineering roles in fintech, risk technology, or applied AI.
 
 <div class="grid" style="justify-content: center;" markdown>
-[:material-email: Email](mailto:chad.eline@gmail.com){ .md-button .md-button--primary }
+[:material-email: Email](mailto:charleseline@gmail.com){ .md-button .md-button--primary }
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>

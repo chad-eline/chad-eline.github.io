@@ -3,7 +3,7 @@ Asheville, NC | (770)653-8626 | charleseline@gmail.com | [LinkedIn](https://www.
 
 ## Professional Summary
 
-Risk and analytics professional with 10+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions. Expertise in ETL pipelines, data warehousing, econometric modeling, and cloud migration. Named Company MVP for leading enterprise-scale Azure migration. Passion for data science and analytics engineering.
+Risk and analytics professional with 12+ years of experience delivering regulatory compliance solutions and data infrastructure for financial institutions. Expertise in ETL pipelines, data warehousing, econometric modeling, and cloud migration. Named Company MVP for leading enterprise-scale Azure migration. Passion for data science and analytics engineering.
 
 ## Professional Experience
 

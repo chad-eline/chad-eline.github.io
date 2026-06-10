@@ -2,7 +2,7 @@
 
 ## :material-account: Background
 
-Senior Data Engineer with 10+ years modernizing financial and regulatory analytics platforms in highly regulated environments. Proven track record leading migrations from SAS and on-premise systems to Python and Azure-based architectures. Deep experience translating risk and finance requirements into scalable data pipelines, forecasting models, and production-grade analytical systems.
+Senior Data Engineer with 12+ years modernizing financial and regulatory analytics platforms in highly regulated environments. Proven track record leading migrations from SAS and on-premise systems to Python and Azure-based architectures. Deep experience translating risk and finance requirements into scalable data pipelines, forecasting models, and production-grade analytical systems.
 
 ## :material-briefcase: Experience
 
@@ -97,8 +97,8 @@ The $17B LCR impact came from giving the bank accurate visibility into their FDI
 ## :material-email: Contact
 
 <div class="contact-grid" markdown>
-[:material-email: Email](mailto:charles.eline@gmail.com){ .md-button .md-button--primary }
-[:material-file-download: Resume](assets/Resume.md){ .md-button download }
+[:material-email: Email](mailto:charleseline@gmail.com){ .md-button .md-button--primary }
+[:material-file-document: Resume](assets/Resume.md){ .md-button }
 [:fontawesome-brands-github: GitHub](https://github.com/chad-eline){ .md-button }
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/charles-eline-30829241/){ .md-button }
 </div>
