@@ -10,16 +10,35 @@ A showcase of personal projects and open-source tools.
 
     ---
 
-    End-to-end ETL pipeline using public financial data sources (FRED, SEC EDGAR) with medallion architecture, Airflow orchestration, and data quality validation.
+    End-to-end ETL that pulls public economic and filing data, lands it through a medallion architecture, and validates quality at every layer.
 
-    - **Medallion Architecture**: Bronze → Silver → Gold layers
-    - **Public APIs**: FRED economic indicators + SEC EDGAR filings
-    - **Data Quality**: Great Expectations validation at each layer
-    - **Containerized**: Docker Compose for reproducible deployment
+    - **Medallion architecture**: Bronze (raw) to Silver (cleaned) to Gold (analytics-ready)
+    - **Public sources**: FRED economic indicators + SEC EDGAR filings
+    - **Data quality**: Great Expectations checks gate each layer
+    - **Orchestrated & containerized**: Airflow DAGs (daily/weekly) on Docker Compose
 
     **Stack:** Python, Polars, DuckDB, Airflow, Docker
 
     [:fontawesome-brands-github: View on GitHub](https://github.com/chad-eline/pipeline_demo){ .md-button }
+
+</div>
+
+<div class="grid cards featured" markdown>
+
+- :material-database-sync: **Idempotent Stock Data Pipeline**
+
+    ---
+
+    A reload-safe pipeline that normalizes wide daily stock data into a transactional store and runs analytics over it. Re-running on a revised file migrates the schema, backfills new columns, and restates splits without duplicating rows.
+
+    - **Idempotent upserts**: keyed on each row's business identity, so reloads update in place
+    - **Right tool per stage**: Polars ingest, SQLite system of record, DuckDB analytics
+    - **Schema evolution**: auto-migrates, backfills, and restates historical stock splits
+    - **Tested**: pytest suite over the load and query paths
+
+    **Stack:** Python, Polars, SQLite, DuckDB
+
+    [:fontawesome-brands-github: View on GitHub](https://github.com/chad-eline/owl-stock-pipeline){ .md-button }
 
 </div>
 
@@ -31,12 +50,12 @@ A showcase of personal projects and open-source tools.
 
     ---
 
-    Generate polished MS Word resumes from Markdown files with customizable YAML templates. Separates content from styling—write once, output to multiple formats.
+    Generate ATS-compliant Word resumes and cover letters from plain Markdown, keeping content separate from styling so you write once and restyle freely.
 
-    - Write content in Markdown, style separately
-    - Multiple output formats (DOCX, PDF)
-    - Template inheritance and overrides
-    - Cover letter support
+    - **Markdown in, Word out**: clean, ATS-safe DOCX without tables or hacks
+    - **YAML templates**: control fonts, colors, margins, and spacing
+    - **Batch or single**: process a whole folder or one file
+    - **Resumes + cover letters**: with working clickable links
 
     **Stack:** Python, python-docx
 
@@ -44,13 +63,15 @@ A showcase of personal projects and open-source tools.
 
 </div>
 
+## Containers & Local AI
+
 <div class="grid cards secondary" markdown>
 
-- :material-robot: **AI in Docker**
+- :material-robot: **Local LLM Stack**
 
     ---
 
-    Containerized local AI/ML with GPU passthrough
+    Run local models (Mistral, Llama 3, Phi-3) behind a ChatGPT-style UI with MCP tools, fully containerized, plus an optional proxy to prove true offline operation.
 
     [:fontawesome-brands-github: GitHub](https://github.com/chad-eline/ollama_in_docker){ .md-button }
 
@@ -58,7 +79,7 @@ A showcase of personal projects and open-source tools.
 
     ---
 
-    Portable, reproducible data science environments
+    Reproducible, portable Jupyter notebook environments built and hosted in a container.
 
     [:fontawesome-brands-github: GitHub](https://github.com/chad-eline/jupyter_in_docker){ .md-button }
 
